@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.91 scan initiated Thu Nov 24 12:24:33 2022 as: nmap -sn -oA pingsweep -PE 10.0.2.1-254 -->
+<nmaprun scanner="nmap" args="nmap -sn -oA pingsweep -PE 10.0.2.1-254" start="1669292673" startstr="Thu Nov 24 12:24:33 2022" version="7.91" xmloutputversion="1.05">
+<verbose level="0"/>
+<debugging level="0"/>
+<host><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.0.2.2" addrtype="ipv4"/>
+<address addr="52:54:00:12:35:02" addrtype="mac" vendor="QEMU virtual NIC"/>
+<hostnames>
+</hostnames>
+<times srtt="1702" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.0.2.3" addrtype="ipv4"/>
+<address addr="52:54:00:12:35:03" addrtype="mac" vendor="QEMU virtual NIC"/>
+<hostnames>
+</hostnames>
+<times srtt="918" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.0.2.4" addrtype="ipv4"/>
+<address addr="52:54:00:12:35:04" addrtype="mac" vendor="QEMU virtual NIC"/>
+<hostnames>
+</hostnames>
+<times srtt="744" rttvar="1376" to="100000"/>
+</host>
+<host><status state="up" reason="localhost-response" reason_ttl="0"/>
+<address addr="10.0.2.15" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</host>
+<runstats><finished time="1669292675" timestr="Thu Nov 24 12:24:35 2022" summary="Nmap done at Thu Nov 24 12:24:35 2022; 254 IP addresses (4 hosts up) scanned in 2.35 seconds" elapsed="2.35" exit="success"/><hosts up="4" down="250" total="254"/>
+</runstats>
+</nmaprun>

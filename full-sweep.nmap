@@ -1,0 +1,115 @@
+# Nmap 7.91 scan initiated Thu Nov 24 12:27:29 2022 as: nmap -Pn -n -iL targets.txt -p -65535 -sV -A -oA full-sweep --min-rate 50000 --min-hostgroup 22 --max-retries -T5
+Warning: 10.0.2.2 giving up on port because retransmission cap hit (0).
+Warning: 10.0.2.3 giving up on port because retransmission cap hit (0).
+Warning: 10.0.2.4 giving up on port because retransmission cap hit (0).
+Nmap scan report for 10.0.2.2
+Host is up (0.0026s latency).
+Not shown: 63449 filtered ports, 2083 closed ports
+PORT      STATE SERVICE       VERSION
+135/tcp   open  msrpc         Microsoft Windows RPC
+445/tcp   open  microsoft-ds?
+49671/tcp open  msrpc         Microsoft Windows RPC
+MAC Address: 52:54:00:12:35:02 (QEMU virtual NIC)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.91%E=4%D=11/24%OT=135%CT=2%CU=42327%PV=Y%DS=1%DC=D%G=Y%M=525400
+OS:%TM=637F6570%P=x86_64-pc-linux-gnu)SEQ(SP=10%GCD=FA00%ISR=A8%TI=I%CI=I%I
+OS:I=I%SS=S%TS=U)SEQ(SP=11%GCD=FA00%ISR=A8%TI=I%II=I%SS=S%TS=U)OPS(O1=M5B4%
+OS:O2=M5B4%O3=M5B4%O4=M5B4%O5=M5B4%O6=M5B4)WIN(W1=FFFF%W2=FFFF%W3=FFFF%W4=F
+OS:FFF%W5=FFFF%W6=FFFF)ECN(R=Y%DF=N%T=40%W=FFFF%O=M5B4%CC=N%Q=)T1(R=Y%DF=N%
+OS:T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=Y%DF=N%T=FF%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)
+OS:T3(R=Y%DF=N%T=FF%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T4(R=Y%DF=N%T=FF%W=0%S=A%A
+OS:=Z%F=R%O=%RD=0%Q=)T5(R=N)T5(R=Y%DF=N%T=FF%W=0%S=Z%A=O%F=AR%O=%RD=0%Q=)T6
+OS:(R=Y%DF=N%T=FF%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=N%T=FF%W=0%S=Z%A=S%F
+OS:=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=FF%IPL=38%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%
+OS:RUD=G)IE(R=Y%DFI=S%T=2A%CD=S)
+
+Network Distance: 1 hop
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: 1s
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2022-11-24T12:36:52
+|_  start_date: N/A
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   2.59 ms 10.0.2.2
+
+Nmap scan report for 10.0.2.3
+Host is up (0.0026s latency).
+Not shown: 63445 filtered ports, 2087 closed ports
+PORT      STATE SERVICE       VERSION
+135/tcp   open  msrpc         Microsoft Windows RPC
+445/tcp   open  microsoft-ds?
+49671/tcp open  msrpc         Microsoft Windows RPC
+MAC Address: 52:54:00:12:35:03 (QEMU virtual NIC)
+Device type: general purpose|bridge|switch|printer
+Running (JUST GUESSING): QEMU (98%), Oracle Virtualbox (96%), Bay Networks embedded (90%), Allied Telesyn embedded (88%), Samsung embedded (88%), Linux (88%)
+OS CPE: cpe:/a:qemu:qemu cpe:/o:oracle:virtualbox cpe:/h:baynetworks:baystack_450 cpe:/h:alliedtelesyn:at-9006 cpe:/h:samsung:clp-315w cpe:/o:linux:linux_kernel:2.6.18
+Aggressive OS guesses: QEMU user mode network gateway (98%), Oracle Virtualbox (96%), Bay Networks BayStack 450 switch (software version 3.1.0.22) (90%), Allied Telesyn AT-9006SX/SC switch (88%), Samsung CLP-315W printer (88%), Linux 2.6.18 (CentOS 5, x86_64, SMP) (88%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: 1s
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2022-11-24T12:36:55
+|_  start_date: N/A
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   2.62 ms 10.0.2.3
+
+Nmap scan report for 10.0.2.4
+Host is up (0.0024s latency).
+Not shown: 63455 filtered ports, 2077 closed ports
+PORT      STATE SERVICE       VERSION
+135/tcp   open  msrpc         Microsoft Windows RPC
+445/tcp   open  microsoft-ds?
+49671/tcp open  msrpc         Microsoft Windows RPC
+MAC Address: 52:54:00:12:35:04 (QEMU virtual NIC)
+Device type: general purpose|bridge|switch|printer
+Running (JUST GUESSING): QEMU (98%), Oracle Virtualbox (96%), Bay Networks embedded (90%), Allied Telesyn embedded (88%), Samsung embedded (88%), Linux (88%)
+OS CPE: cpe:/a:qemu:qemu cpe:/o:oracle:virtualbox cpe:/h:baynetworks:baystack_450 cpe:/h:alliedtelesyn:at-9006 cpe:/h:samsung:clp-315w cpe:/o:linux:linux_kernel:2.6.18
+Aggressive OS guesses: QEMU user mode network gateway (98%), Oracle Virtualbox (96%), Bay Networks BayStack 450 switch (software version 3.1.0.22) (90%), Allied Telesyn AT-9006SX/SC switch (88%), Samsung CLP-315W printer (88%), Linux 2.6.18 (CentOS 5, x86_64, SMP) (88%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: 1s
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2022-11-24T12:36:48
+|_  start_date: N/A
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   2.37 ms 10.0.2.4
+
+Warning: 10.0.2.15 giving up on port because retransmission cap hit (0).
+Nmap scan report for 10.0.2.15
+Host is up (0.00018s latency).
+All 65535 scanned ports on 10.0.2.15 are filtered (63975) or closed (1560)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 0 hops
+
+Post-scan script results:
+| clock-skew: 
+|   1s: 
+|     10.0.2.4
+|     10.0.2.3
+|_    10.0.2.2
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Nov 24 12:37:40 2022 -- 4 IP addresses (4 hosts up) scanned in 611.65 seconds

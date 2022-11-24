@@ -1,0 +1,11 @@
+- Service msrpc on:
+  - 10.0.2.2:135; product: Microsoft Windows RPC
+  - 10.0.2.2:49671; product: Microsoft Windows RPC
+  - 10.0.2.3:135; product: Microsoft Windows RPC
+  - 10.0.2.3:49671; product: Microsoft Windows RPC
+  - 10.0.2.4:135; product: Microsoft Windows RPC
+  - 10.0.2.4:49671; product: Microsoft Windows RPC
+- Service microsoft-ds on:
+  - 10.0.2.2:445
+  - 10.0.2.3:445
+  - 10.0.2.4:445

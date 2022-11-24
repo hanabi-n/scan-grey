@@ -1,0 +1,13 @@
+# Nmap 7.91 scan initiated Thu Nov 24 12:24:33 2022 as: nmap -sn -oA pingsweep -PE 10.0.2.1-254
+Nmap scan report for 10.0.2.2
+Host is up (0.0017s latency).
+MAC Address: 52:54:00:12:35:02 (QEMU virtual NIC)
+Nmap scan report for 10.0.2.3
+Host is up (0.00092s latency).
+MAC Address: 52:54:00:12:35:03 (QEMU virtual NIC)
+Nmap scan report for 10.0.2.4
+Host is up (0.00074s latency).
+MAC Address: 52:54:00:12:35:04 (QEMU virtual NIC)
+Nmap scan report for 10.0.2.15
+Host is up.
+# Nmap done at Thu Nov 24 12:24:35 2022 -- 254 IP addresses (4 hosts up) scanned in 2.35 seconds

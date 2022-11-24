@@ -1,0 +1,10 @@
+# Nmap 7.91 scan initiated Thu Nov 24 12:27:29 2022 as: nmap -Pn -n -iL targets.txt -p -65535 -sV -A -oA full-sweep --min-rate 50000 --min-hostgroup 22 --max-retries -T5
+Host: 10.0.2.2 ()	Status: Up
+Host: 10.0.2.2 ()	Ports: 135/open/tcp//msrpc//Microsoft Windows RPC/, 445/open/tcp//microsoft-ds?///, 49671/open/tcp//msrpc//Microsoft Windows RPC/	Seq Index: 17	IP ID Seq: Incremental
+Host: 10.0.2.3 ()	Status: Up
+Host: 10.0.2.3 ()	Ports: 135/open/tcp//msrpc//Microsoft Windows RPC/, 445/open/tcp//microsoft-ds?///, 49671/open/tcp//msrpc//Microsoft Windows RPC/	Seq Index: 16	IP ID Seq: Incremental
+Host: 10.0.2.4 ()	Status: Up
+Host: 10.0.2.4 ()	Ports: 135/open/tcp//msrpc//Microsoft Windows RPC/, 445/open/tcp//microsoft-ds?///, 49671/open/tcp//msrpc//Microsoft Windows RPC/	Seq Index: 18	IP ID Seq: Incremental
+Host: 10.0.2.15 ()	Status: Up
+Host: 10.0.2.15 ()	Status: Up
+# Nmap done at Thu Nov 24 12:37:40 2022 -- 4 IP addresses (4 hosts up) scanned in 611.65 seconds
